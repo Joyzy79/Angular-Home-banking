@@ -1,0 +1,31 @@
+<div class="movimentacao-container">
+  <!-- Título da seção de movimentação bancária -->
+  <h4>Movimentação Bancária</h4>
+
+  <!-- Card que exibe o saldo bancário -->
+  <div class="saldo-card">
+    <span>Saldo Bancário: R$ {{ saldoBancario }}</span>
+  </div>
+
+  <!-- Lista de movimentações -->
+  <div class="movimentacao-list">
+    <!-- Loop para cada movimento na lista -->
+    <div class="card" *ngFor="let movimento of movimentos">
+      <!-- Conteúdo do card de movimentação -->
+      <div class="card-content">
+        <ul class="list-inline">
+          <li>
+            <!-- Ícone da movimentação usando MatIcon -->
+            <mat-icon>{{ movimento.icone }}</mat-icon>
+          </li>
+          <li>{{ movimento.item }}</li>
+          <li>R$ {{ movimento.valor }}</li>
+        </ul>
+      </div>
+      <!-- Data da movimentação -->
+      <span class="data">{{ movimento.data }}</span>
+    </div>
+  </div>
+</div>
+
+

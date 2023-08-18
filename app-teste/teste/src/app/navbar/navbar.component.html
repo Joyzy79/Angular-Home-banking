@@ -1,0 +1,19 @@
+<mat-toolbar color="primary">
+  <!-- Título do banco -->
+  <span>Angular Bank</span>
+  
+  <!-- Espaçamento flexível -->
+  <span class="spacer"></span>
+  
+  <!-- Botões de navegação -->
+  <button mat-button routerLink="/movimentacao">Movimentação</button>
+  <button mat-button routerLink="/operacoes">Operações</button>
+  <button mat-button routerLink="/contacte-nos">Contacte-nos</button>
+  
+  <!-- Botão de logout -->
+  <span class="mat-toolbar-end">
+      <button mat-button (click)="deslogar()">
+          <span class="material-icons">logout</span>
+      </button>
+  </span>
+</mat-toolbar>

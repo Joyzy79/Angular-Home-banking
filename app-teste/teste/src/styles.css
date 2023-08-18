@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/pink-bluegrey.css';
+
+*{
+    font-family: 'Nunito', sans-serif;
+}
+html, body { height: 100%; }
+body { margin: 0; font-size: 14px; color: #333; line-height: 1.5;    background-color: rgb(175, 230, 220);  font-family: 'Nunito', sans-serif;}
+
+

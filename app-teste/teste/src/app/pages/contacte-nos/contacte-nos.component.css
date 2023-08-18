@@ -1,0 +1,55 @@
+/* Estilo para a seção "Contacte-nos" */
+.contacte-nos-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px;
+  height: 100vh;
+  margin-top: 5px;
+}
+
+/* Estilo para o cartão */
+.card {
+  padding: 20px;
+  width: 400px;
+  background-color: rgb(222 9 149 / 37%);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgb(142 123 167);
+}
+
+/* Estilos para os títulos */
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+/* Estilos para os parágrafos */
+p {
+  font-size: 18px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+/* Estilo para a lista de itens */
+.card ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/* Estilos para os itens da lista */
+.card li {
+  margin-bottom: 5px;
+}
+
+/* Estilos para links */
+.card a {
+  text-decoration: none;
+  color: #8604b5;
+}
+
+/* Estilo para botões */
+mat-button {
+  color: #310d3d;
+}

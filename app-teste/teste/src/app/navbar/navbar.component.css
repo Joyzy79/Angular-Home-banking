@@ -1,0 +1,26 @@
+/* Estilo para a barra de navegação */
+.mat-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #c2185b; /* Cor de fundo da barra de navegação */
+  color: white; /* Cor do texto na barra de navegação */
+}
+
+/* Estilo para os botões da barra de navegação */
+.mat-toolbar button {
+  margin-left: 10px;
+  color: white; /* Cor do texto nos botões */
+  font-weight: bold;
+}
+
+/* Estilo para o botão de logout */
+.mat-toolbar button.logout-button {
+  margin-left: 20px;
+}
+
+/* Espaçamento entre os elementos da barra de navegação */
+.spacer {
+  flex: 1;
+}
